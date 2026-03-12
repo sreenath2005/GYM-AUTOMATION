@@ -5,7 +5,7 @@ class ApiConstants {
   // For web/Chrome: http://localhost:5000/api
   // For mobile (Android APK): use your PC's local Wi-Fi IP e.g. http://192.168.38.120:5000/api
   static String get baseUrl =>
-      kIsWeb ? 'http://localhost:5000/api' : 'http://192.168.38.120:5000/api';
+      kIsWeb ? 'http://localhost:5000/api' : 'https://gym-automation.onrender.com';
   // For production: static const String baseUrl = 'https://your-backend-url.com/api';
   
   // Auth endpoints
